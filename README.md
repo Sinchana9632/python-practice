@@ -1,4 +1,4 @@
 # python-  learning from  basics to OOPs 
 
-daily python priblem  practice and learning concepts 
+Daily python problems  practice and learning concepts 
 
