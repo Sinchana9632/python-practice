@@ -10,3 +10,6 @@ print("hi");  # ; is not considered
 print("hello word ","hi how are you " ,45)
 print(10>4)  # wwe can also inside the 
  """
+ 
+list=[1,2,3,4,5]
+print(list[1::-1])
