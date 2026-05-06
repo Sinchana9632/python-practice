@@ -1,3 +1,4 @@
+#build array with permutation  leetcode problem 
 
 nums=[0,2,1,3]
 ans=[]
@@ -6,7 +7,11 @@ for i in range(len(nums)):
     final_value=nums[list]
     ans.append(final_value)
 print(ans)
-        
+
+# or 
+
+
+    
         
         
         
