@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-08-17  String Mechanics & Character Conversions.md",
+                "file": "2026-08-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-17  String Mechanics & Character Conversions"
+              "title": "2026-08-20"
             }
           }
         ],
@@ -205,8 +205,9 @@
   },
   "active": "16343e6397fb114f",
   "lastOpenFiles": [
-    "String  and Acsii values.md",
     "2026-08-17  String Mechanics & Character Conversions.md",
+    "2026-08-20.md",
+    "String  and Acsii values.md",
     "2026-08-08 Array Memory & In-Place Performance.md",
     "string.py",
     "2026-08-12  2D Array.md",
