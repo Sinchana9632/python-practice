@@ -38,3 +38,30 @@ Instead of deleting and shifting elements, use **direct index overwriting** (`nu
 | ------------------------------ | ------------------- | -------------------- | ------------------------------------------------- |
 | **`nums.remove(val)` in loop** | $\mathcal{O}(N^2)$  | $\mathcal{O}(1)$     | Repeated element searching and shifting           |
 | **Two-Pointer Overwrite**      | $\mathcal{O}(N)$    | $\mathcal{O}(1)$     | Single pass traversal; overwrites values directly |
+int       → 10
+float     → 10.5
+str       → "Hello"
+bool      → True
+list      → [1, 2, 3]
+tuple     → (1, 2, 3)
+set       → {1, 2, 3}
+dict      → {"a": 1}
+
+
+
+So you're asking exactly the right question: **Python `list` is not the same thing as a traditional C array, but Python's list internally uses a dynamic-array-like design.**
+
+| **Data Type**      | **Ordered?**          | **Mutable (Changeable)?** | **Allows Duplicates?**    | **Syntax Example** |
+| ------------------ | --------------------- | ------------------------- | ------------------------- | ------------------ |
+| **List**           | Yes                   | **Yes**                   | Yes                       | `[1, 2, 3]`        |
+| **Tuple**          | Yes                   | **No** (Immutable)        | Yes                       | `(1, 2, 3)`        |
+| **Set**            | No                    | **Yes**                   | **No**                    | `{1, 2, 3}`        |
+| **Dictionary**     | Yes (Insertion order) | **Yes**                   | Keys: **No**, Values: Yes | `{"a": 1, "b": 2}` |
+| Operation          | Typical complexity    |                           |                           |                    |
+| `arr[i]`           | O(1)                  |                           |                           |                    |
+| `arr.append(x)`    | O(1) amortized        |                           |                           |                    |
+| `arr.pop()`        | O(1)                  |                           |                           |                    |
+| `arr.pop(0)`       | O(N)                  |                           |                           |                    |
+| `arr.insert(0, x)` | O(N)                  |                           |                           |                    |
+| `x in arr`         | O(N)                  |                           |                           |                    |
+| `len(arr)`         | O(1)                  |                           |                           |                    |
