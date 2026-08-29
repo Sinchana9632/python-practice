@@ -538,19 +538,19 @@ Especially for:
 
 Now take the problems you already studied.
 
-|Problem|What you should identify|
-|---|---|
-|Build Array from Permutation|Indexing / traversal|
-|Remove Element|In-place / two pointers|
-|Running Sum|Cumulative|
-|Pivot Index|Prefix/Suffix|
-|Equilibrium Point|Prefix/Suffix|
-|Transpose Matrix|Matrix traversal|
-|Matrix Diagonal Sum|Matrix indexing|
-|Spiral Matrix|Boundary simulation|
-|Rotate Image|Matrix transformation|
-|Product Except Self|Prefix/Suffix|
-|Maximum Subarray|Kadane|
+| Problem                      | What you should identify |
+| ---------------------------- | ------------------------ |
+| Build Array from Permutation | Indexing / traversal     |
+| Remove Element               | In-place / two pointers  |
+| Running Sum                  | Cumulative               |
+| Pivot Index                  | Prefix/Suffix            |
+| Equilibrium Point            | Prefix/Suffix            |
+| Transpose Matrix             | Matrix traversal         |
+| Matrix Diagonal Sum          | Matrix indexing          |
+| Spiral Matrix                | Boundary simulation      |
+| Rotate Image                 | Matrix transformation    |
+| Product Except Self          | Prefix/Suffix            |
+| Maximum Subarray             | Kadane                   |
 
 You don't necessarily need to solve **all 11 from scratch** today.
 
